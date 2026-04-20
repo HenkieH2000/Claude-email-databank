@@ -1,0 +1,54 @@
+# VCTparts Brand Identity Guide: Modern Premium Functionalism
+
+Deze gids definieert de visuele standaarden voor alle digitale uitingen (websites, e-mails, social media) om een consistent gevoel van kwaliteit, techniek en prestatie te waarborgen.
+
+## 1. Kernconcept: 'The Performance Look'
+De stijl combineert de zakelijkheid van de automotive-industrie met de esthetiek van premium tech-merken. De focus ligt op **hoog contrast**, **extreme witruimte** en **functioneel kleurgebruik**.
+
+---
+
+## 2. Kleurenpalet & Hiërarchie
+Het palet is gebouwd op een 'Hybrid Action Strategy', waarbij kleuren een specifieke taak hebben.
+
+* **Midnight Navy (#000B18):** De fundering. Gebruik dit voor headers, footers en grote contrastvlakken. Straalt autoriteit en techniek uit.
+* **Power Orange (#FF7B00):** De merk-identiteit. Wordt gebruikt voor categorie-banners, iconen, highlights en algemene actieknoppen (zoals "Bekijk meer").
+* **Vivid Yellow (#FFCC00):** De **Conversion Color**. Deze kleur is **exclusief** gereserveerd voor de winkelwagenknoppen ("In winkelwagen").
+* **Signal Red (#E30613):** De urgency-kleur. Uitsluitend voor kortingsbadges en actieprijzen.
+* **Background Grey (#F8F9FA):** Een zachte tussenkleur om witte content-secties van elkaar te scheiden.
+
+---
+
+## 3. Typografie
+* **Typeface:** Gebruik een moderne, geometrische Sans-Serif (bijv. *Montserrat*, *Gotham* of *Poppins*).
+* **Headings:** Bold of Extra Bold. Nauwe letter-spacing voor een krachtige look.
+* **Body:** Regular of Medium gewicht. Ruime regelafstand (1.5x) voor maximale leesbaarheid.
+* **Kickers:** Kleine teksten in hoofdletters boven de hoofdkop, uitgevoerd in Power Orange.
+
+---
+
+## 4. UI-Elementen & Vormentaal
+De vormentaal is 'soft-industrial': strak maar toegankelijk.
+
+* **Border Radius:** Alle kaarten, afbeeldingen en containers hebben een forse afronding van **12px tot 16px**.
+* **Knoppen (Buttons):**
+    * **Conversie:** Geel vlak, zwarte tekst, pill-vorm (volledig afgerond).
+    * **Brand Action:** Oranje vlak, witte/navy tekst, pill-vorm.
+* **Cards:** Witte achtergrond, 16px radius, en een zeer zachte, wijde schaduw (*box-shadow: 0 10px 30px rgba(0,0,0,0.05)*).
+* **Iconografie:** Dunne line-art iconen. Iconen staan vaak in een Midnight Navy cirkel of afgerond vierkant, met het icoon zelf in Power Orange.
+
+---
+
+## 5. Lay-out & Compositie
+* **Whitespace:** Wees extreem gul met witruimte. Content mag nooit tegen de randen van secties aan staan.
+* **Grid:** Gebruik een strak grid (vaak 3 of 4 kolommen).
+* **Z-Patroon:** Leid de ogen van de bezoeker door grote koppen (links) af te wisselen met krachtige visuele elementen (rechts).
+* **Beeldstijl:** Productfoto's zijn 'clean', vrijstaand op een witte of lichtgrijze achtergrond om de focus op de details van het product te leggen.
+
+---
+
+## 6. Toepassing per Kanaal
+* **E-mail:** Gebruik een Midnight Navy header, witte body-kaarten op een lichtgrijze achtergrond, en één prominente Gele button onderaan voor de conversie.
+* **Website:** Gebruik de Navy kleur voor de navigatiebalk om een direct contrast te vormen met de witte content-area.
+* **Advertenties:** Focus op de combinatie van Midnight Navy achtergronden met Power Orange koppen voor maximale stopkracht.
+
+---
