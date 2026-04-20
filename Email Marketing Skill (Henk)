@@ -1,0 +1,478 @@
+Email Marketing Design Skill: Complete Conversion-Optimized Guide
+claude.ai
+name: email-marketing-design description: Design high-converting marketing emails for e-commerce brands. Use this skill when a user asks to create, design, write, or build a marketing email, newsletter, promotional email, abandoned cart email, welcome flow, or any Klaviyo/ESP email template. Also triggers when the user asks for email copy, email structure, email layout advice, or wants a Gemini image prompt for an email hero/banner. Covers the full workflow: goal setting, copy framework, visual hierarchy, section architecture, Klaviyo build instructions, image prompts, and export guidance.
+This skill produces a complete, conversion-optimized marketing email for e-commerce brands — from strategic goal-setting through final copy, layout spec, section-by-section Klaviyo build instructions, and photorealistic Gemini image generation prompts for every image needed.
+
+The user provides: brand name, product(s), email goal, and optionally: brand colors, tone of voice, target audience, and existing assets.
+
+THE THREE CONVERSION PILLARS (Max Sturtevant / Wellcopy)
+Before touching the design or copy, internalize these three pillars. Every decision in the email must serve at least one of them. If a design element doesn't serve any of these three, remove it.
+
+Pillar 1: EASE OF CLICK
+The email must make clicking effortless and obvious, high up in the layout.
+
+CTA button must appear above the fold — visible without scrolling on a mobile screen
+Buttons must be large, impossible to miss, and have obvious visual affordance
+The path from "open email" to "click CTA" should require zero thinking
+Remove anything in the top section that doesn't lead toward a click (e.g., distracting category navigation bars, excessive nav links)
+Each distinct product or category in a multi-product email gets its own individual CTA button — never make the reader hunt for where to click on something specific
+Pillar 2: SKIMMABILITY
+Most subscribers do not read emails. They scan. Design for the scanner, not the reader.
+
+No long text blocks — maximum 2–3 lines per paragraph
+Use infographics instead of explanatory paragraphs where possible
+Use short bullets (3–5 words per point)
+Use emojis strategically to break up text and draw the eye to key lines
+Use visual contrast (bold text, color backgrounds, icons) to create scanning anchors
+The email's core message must be understandable in under 5 seconds of scanning
+Structure content in a clear visual hierarchy: big → medium → small, always
+Pillar 3: FLUIDITY
+The email must guide the reader's eye downward naturally. No jarring breaks, no blocky sections that feel disconnected.
+
+Use colored background sections to create visual rhythm and signal transitions
+Use Spacer blocks and Divider blocks generously between sections
+Alternate section backgrounds (white → light gray → brand color → white) to create flow
+Use rounded corners on containers and images to soften transitions
+The email should feel like a continuous experience, not a stack of disconnected design blocks
+The hero section is the only section that nearly every subscriber sees — it must do enough work to pull them into scrolling further
+PHASE 0: Pre-Work — Understand Before You Build
+Before writing a single word or designing a single section, extract and confirm the following.
+
+1. Email Goal (ONE goal only)
+Every email must serve exactly one strategic purpose. Force a choice:
+
+Drive direct sales on a specific product or collection
+Re-engage cold/inactive subscribers
+Announce a new product launch
+Promote a limited-time offer or sale
+Build brand story / educate subscribers
+Recover abandoned carts
+Welcome new subscribers (flow email 1, 2, 3…)
+Rule: If the email tries to do two things, it will do neither. Cut ruthlessly. Secondary CTAs are only acceptable when there are genuinely two distinct product categories within one campaign — and even then, the primary CTA must visually dominate.
+
+2. Brand Assets Needed
+Identify before building:
+
+Primary brand colors (HEX values — never approximate)
+Font names (heading + body). If unknown: go to brand website, open DevTools > Network > Fonts tab, filter by WOFF files, download and convert to TTF/OTF via CloudConvert
+Logo (SVG or high-res PNG, white and dark versions)
+Product images (minimum 2x resolution: 1200px+ for hero, 600px+ for secondary)
+Lifestyle photography if available
+Any existing brand tone-of-voice examples (website copy, social captions, past emails)
+Pro tip (Aaron Bermingham): Use CSS Peeper browser extension or DevTools > Elements to extract exact HEX colors and type styles from the brand website. Never approximate. A wrong brand color undermines trust instantly.
+
+3. Reverse-Engineer Winners
+Before writing copy or designing anything:
+
+Search comparable brands on milled.com or reallygoodemails.com
+Screenshot: hero sections, button placements, social proof layouts, footer structures, background color progressions
+Ask: Where is the first CTA? How much white space? What is the emotional tone? What is skippable vs. essential?
+Note what makes the best emails fluid — how do sections transition into each other?
+PHASE 1: Copy Framework Selection
+Choose the correct framework based on email goal:
+
+Framework A — AID (Attention → Interest → Desire → Action)
+Best for: product launches, new collection reveals, promotional emails
+
+Attention: Bold, scroll-stopping headline in the hero
+Interest: What makes this product/offer uniquely valuable
+Desire: Social proof, benefits, emotional outcome
+Action: CTA button — single, clear, unmissable
+Framework B — PAS (Problem → Agitate → Solve)
+Best for: re-engagement emails, pain-point products, win-back flows
+
+Problem: Name the subscriber's struggle directly
+Agitate: Make the problem feel urgent and real
+Solve: Position the product as the exact answer
+Framework C — Story → Outcome → Action
+Best for: brand storytelling, welcome flows, high-AOV lifestyle brands
+
+Story: A short, human narrative (founder moment, customer transformation, seasonal hook)
+Outcome: The tangible result or feeling the subscriber will experience
+Action: Soft but confident CTA
+Copy Rules (non-negotiable):
+One primary CTA per email — never dilute with equal-weight secondary links unless the campaign explicitly covers two distinct categories
+Hero headline: bold, scannable, emotionally charged. Subscriber must understand the email's value in under 2 seconds
+Body copy: paragraphs maximum 2–3 lines, conversational, zero jargon
+Button copy: action verbs, specific ("Shop the Drop" not "Click Here"), maximum 4–5 words
+Use urgency signals: "NEW," "LIMITED," "Only X left," "Ends Sunday" — in headlines, banners, and subtext
+Use exclusivity signals: "Members Only," "Early Access," "Just for you" — these lift open engagement significantly
+Personalization beyond first name: reference past purchase category, product they browsed, or location when possible
+Match brand voice exactly — a technical performance brand writes differently than a soft lifestyle brand
+PHASE 2: Email Section Architecture
+Required Sections (in order):
+SECTION 1: PREHEADER TEXT (hidden, but critical)
+40–90 characters, shown in inbox preview next to subject line
+Must complement subject line, never repeat it
+Contains a secondary hook, urgency signal, or benefit statement
+Write this last — it reacts to the subject line
+SECTION 2: HEADER / NAV BAR
+Logo centered or left-aligned, maximum 75px height
+Optional: one-line nav with maximum 2–3 links
+Remove distracting category navigation from promotional emails — it pulls clicks away from the primary CTA (Sturtevant principle: strip the header down in campaign emails vs. newsletters)
+Clean, minimal — the header must never compete with the hero for visual attention
+SECTION 3: HERO SECTION ← highest-leverage section in the email
+Almost every subscriber sees this. Treat it as the entire email condensed into one moment.
+
+Full-width image (600px rendered width, source image at 1200px for retina sharpness)
+Headline: Large (minimum 32px rendered, 60–100pt in design), bold weight, brand font. Must stop the scroll.
+Subheadline: One sentence. Reinforces why to click. 16–18px.
+CTA Button: Must appear within the hero or immediately below it. Large (minimum 44px height for mobile tap targets), pill-shaped or brand-appropriate border radius, maximum contrast against background.
+Above-the-fold rule: On iPhone SE (568px viewport) the CTA must be visible without any scrolling
+Gradient overlay: If text sits on a photo, apply a dark gradient overlay (via CSS or pre-baked into the image) to ensure minimum 4.5:1 contrast ratio for accessibility
+If the hero image doesn't fill the space perfectly, extend it using an AI outpainting tool (e.g., Adobe Firefly, Gemini) and re-upload
+Urgency/exclusivity banner: consider a thin colored bar directly above or below the hero with a one-line urgency message ("Free shipping ends tonight · Limited stock")
+SECTION 4: VALUE / BENEFITS OR INFOGRAPHIC SECTION
+2–3 key product benefits — no more. Pick the strongest ones only.
+Format as: infographic layout (icon or small image + short line) rather than text paragraphs
+Or: "Us vs. Them" comparison table — visual, scannable, uses checkmarks/X marks
+Emojis can function as visual icons in Klaviyo text blocks to add skimmability without images
+Soft background color (light brand tone or warm neutral) to signal a section transition
+Rounded corner containers (20–30px radius) via custom HTML/CSS for premium feel
+SECTION 5: PRODUCT SECTION (if multi-product email)
+Each product gets: image + short name/descriptor + individual "Shop Now" button
+In Klaviyo: use Columns block (2-column or 3-column) or Table HTML
+Each product column must have its own dedicated CTA — never one button for all products
+On mobile: columns stack to single column (test this in Klaviyo preview)
+Subtle borders or alternating background colors to visually separate products
+SECTION 6: SOCIAL PROOF SECTION
+Place this before any secondary CTA — trust must precede the final ask
+Minimum one customer review: star rating (★★★★★) + quoted text (20–40 words) + customer first name + optional product name
+Or: aggregate stat ("4.9/5 from 3,241 verified reviews")
+Or: UGC-style image with overlay caption
+Container: warm neutral background (#F5F0EA or similar), rounded corners (20–30px), generous padding
+Optional: press logo strip ("As seen in…") if brand has earned coverage
+SECTION 7: OFFER / SECONDARY CTA SECTION (if applicable)
+Only include if the campaign has a secondary value proposition (e.g., subscription discount, bundle deal)
+Background: dark image with overlay, or solid brand accent color — visually distinct from above sections
+One prominent button for the secondary offer
+Keep copy short: headline + one benefit line + button
+SECTION 8: FOOTER
+Logo (small)
+Navigation links (shop categories, subscribe & save, etc.) as text or small buttons
+Social media icons
+Physical mailing address (legally required — CAN-SPAM / GDPR)
+Unsubscribe link (legally required — Klaviyo generates this automatically via {{ unsubscribe_link }})
+Short legal line: "You received this because you opted in at [domain]"
+Font size minimum 11px; low-contrast styling acceptable — this is legal, not conversion
+Klaviyo note: the unsubscribe block is added automatically but always verify it renders correctly
+PHASE 3: Visual Design Rules
+Hierarchy
+Every section has one dominant visual element. The subscriber's eye needs a clear, unambiguous path: Hero image → Headline → CTA → Benefits → Social Proof → Secondary CTA → Footer
+
+Never allow two elements to compete for equal visual priority. If everything is bold, nothing is.
+
+Typography
+Maximum 2 font families: one display/heading + one body font
+Heading: 32px+ rendered, bold weight, brand font
+Body: 15–16px rendered minimum, 1.5–1.6 line-height for readability
+Never use light/thin font weights for body text — renders poorly on mobile screens
+Absolute minimum font size: 11px (footer legal text only)
+Dark mode: specify both light and dark mode text colors in HTML (@media (prefers-color-scheme: dark))
+In Klaviyo: set font stack in Global Styles first, then override per-block only when intentional
+Spacing
+Use multiples of 8px for all spacing: 8, 16, 24, 32, 48, 64px
+CTA button padding: minimum 16px top/bottom, 32px left/right
+Section padding: 40–64px top/bottom
+Never let content touch the email container edge — minimum 20px horizontal padding on mobile
+In Klaviyo: use Spacer blocks between every section. Do not rely on paragraph line breaks for spacing.
+Color
+Maximum 3 colors in the email body (excluding footer): primary brand, secondary/accent, neutral background
+CTA button: highest possible contrast against its background — test with WebAIM Contrast Checker
+Social proof section: warm neutral (e.g., #F5F0EA) to separate it visually
+Body text: use near-black (#1A1A1A or #111111), never pure black (#000000) — renders slightly harsh
+Alternate section backgrounds across the email to create fluidity and rhythm
+Mobile-First
+Primary design canvas: 390px wide (iPhone 14 standard)
+All tap targets: minimum 44×44px
+Button width on mobile: minimum 80% of the email container width
+Font sizes: heading 28px+, body 15px+ on mobile
+Images: always 100% container width so they scale
+Two-column desktop layouts must stack to single column on mobile (use Klaviyo's responsive column block or @media queries in HTML)
+In Klaviyo: constantly preview in mobile view while building — don't wait until the end
+White Space
+More white space = higher perceived quality and conversion
+When in doubt: add more padding
+Cluttered emails signal low-end brands; spacious emails signal premium
+GIFs and Motion
+In 2026: use short looping GIFs (maximum 1MB) for hero animation, product reveals, or texture detail
+Always include a static fallback (first frame) for Outlook — Klaviyo handles this via the <img> fallback in the source
+Video in email: use a static thumbnail with a play button icon overlay, linking to the hosted video
+Accessibility
+All images: descriptive alt text (not "image1.jpg" — write "Glossio Ceramic Spray bottle on white surface")
+Color must never be the only way information is conveyed — combine with icons or labels
+Contrast ratio: minimum 4.5:1 for body text, 3:1 for large display headings
+All links visually distinguishable from body text (underline or color difference)
+PHASE 4: What NOT to Do
+❌ Never Do This	✓ Do This Instead
+Multiple competing equal-weight CTAs	One primary CTA, visually dominant
+CTA buried below the fold	CTA visible in hero, above the fold on mobile
+3+ font families	Maximum 2 fonts
+Tiny buttons under 44px height	Large, thumb-friendly buttons (44px+ height)
+Light gray text on white	High-contrast text (#1A1A1A minimum)
+Body text under 14px	15–16px minimum body
+Zero whitespace / cluttered sections	Generous padding everywhere
+"Click Here" button copy	Specific action: "Shop the Drop" / "Get Yours"
+Uncompressed images over 200KB	WebP or compressed JPG, under 200KB each
+No social proof	At least one review or trust signal
+No clear focal point per section	One dominant visual anchor per section
+Desktop-only design	Mobile-first, test on iPhone SE + iPhone 14
+Inconsistent branding	All elements match brand HEX/font guide
+No preheader text	Always write a custom preheader, 40–90 chars
+Dark mode ignored	Include @media (prefers-color-scheme: dark)
+Email longer than 1000px on mobile	Aim for 500–800px total height on mobile
+Category nav links in promotional email	Strip the header down, protect CTA focus
+One CTA button for multiple products	Each product gets its own individual CTA
+Long text paragraphs	Max 2–3 lines, use bullets, infographics, emojis
+Blocky section transitions	Alternate backgrounds, use spacers, round corners
+No urgency or exclusivity signal	"NEW," "LIMITED," "Ends Sunday" somewhere visible
+PHASE 5: Building in Klaviyo Editor (Step-by-Step)
+Setup
+Go to Klaviyo > Email Templates > Create Template
+Choose a blank or minimal base layout — never start from a complex preset
+Set Global Styles first: brand font stack, primary color, background color, button style
+Set email width: 600px (standard for all email clients)
+Enable mobile preview — keep it open in a second tab throughout the build
+Building the Hero
+Add an Image Block — upload your hero image (1200px wide source, renders at 600px)
+Add a Text Block directly below (or overlay via HTML if text is on the image)
+Add a Button Block immediately after — set to full-width on mobile, large font (18–20px), high contrast color
+If the hero image needs a gradient overlay: use a custom HTML block with a <div> overlay using background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6)) positioned absolutely over the image
+If the image dimensions are wrong: use AI outpainting (Adobe Firefly, Gemini) to extend it to the correct ratio, then re-upload
+Building the Infographic / Comparison Section
+Add a Columns Block (2 or 3 columns)
+In each column: add a small image (icon or product shot) + short Text Block
+For "Us vs. Them": use a custom HTML Table block with rounded corners via border-radius: 16px on each cell
+Add emojis directly in Text blocks for visual anchors (✅ ❌ ⚡ 🔥)
+Use a Spacer Block above and below this section (32–48px)
+Set section background to a light brand tone via the Section Background setting
+Building the Product Grid
+Add a Columns Block (2 columns for most layouts)
+Per column: Image Block → Text Block (product name) → Button Block ("Shop Now")
+Set each button to the same style — consistency is critical in a product grid
+In Klaviyo, set column stacking behavior to "Stack on mobile"
+Add a Divider or Spacer between the product grid and the next section
+Building the Social Proof Section
+Add a Section with a warm neutral background (#F5F0EA or similar)
+Add padding: 40px top/bottom, 24px left/right
+Inside: Text Block with star emoji line (★★★★★), quote text, customer name
+Optional: add a small product image next to the review using a Columns Block (image right, text left)
+For rounded container corners: wrap content in a custom HTML block with border-radius: 20px and a slightly darker background than the section
+Building the Footer
+Add a Section with a neutral or dark background
+Logo image block (small — 100px wide max)
+Text block with nav links (use | as separator: "Shop · Blog · Contact")
+Social icons: Image blocks with links, or use Klaviyo's built-in Social Icons block
+Klaviyo auto-appends the unsubscribe block — always preview to ensure it's present and legible
+Physical address in small text (11px, low contrast but readable)
+Mobile QA Checklist in Klaviyo
+Switch to mobile preview after every major section
+Check CTA button is full-width on mobile (not a small pill)
+Check columns stack correctly (not side-by-side on a 390px screen)
+Check text sizes (no body text under 14px on mobile)
+Check hero image fills width without horizontal scroll
+Check spacing looks right (Spacer blocks scale proportionally)
+Send test email to iPhone native Mail app + Gmail mobile + Gmail desktop + Outlook
+Custom HTML Tips (for advanced layouts)
+When Klaviyo's drag-and-drop blocks reach their limit, switch to an HTML Block:
+
+Use table-based layout (not CSS Grid or Flexbox — these break in Outlook)
+Always use inline CSS — never external stylesheets
+Use border-radius on <td> elements for rounded containers
+Use !important in mobile media queries to override inline styles on mobile
+Basic table structure for a content section:
+<tablewidth="100%"cellpadding="0"cellspacing="0"border="0"><tr><tdalign="center"style="padding:40px24px;background-color:#F5F0EA;border-radius:20px;"><!-- Content here --></td></tr></table>
+PHASE 6: Gemini Image Generation Prompts
+When to generate a prompt
+Every time the email design requires a visual asset that does not already exist — hero banners, lifestyle product shots, infographic backgrounds, section backgrounds, social proof imagery, GIF keyframes, or any custom visual.
+
+Minimum requirement per prompt
+300 words minimum. Every prompt must specify all of the following with precision:
+
+Canvas format and dimensions — exact pixel dimensions, aspect ratio, DPI, color space
+Background — HEX color, texture, gradient, environmental context, depth/blur
+Product(s) — exact product name, color, material, finish, label text if visible
+Product position — precise location on canvas (center, left third, bottom-right quadrant, etc.) with angle/rotation if relevant
+Text overlays in the image — exact wording, font weight, approximate size, color, position (or explicitly state: "no baked-in text — text will be overlaid in email template")
+Safe zones — specific areas that must remain clean and low-detail for text/CTA overlay in the email
+Lighting — direction (top-left, front, backlit, etc.), intensity (soft/hard), color temperature (warm/cool/neutral), shadow style
+Mood and atmosphere — the exact emotion the image must evoke in the subscriber
+Photographic style — studio product photography, editorial lifestyle, flat lay, cinematic, macro detail, etc.
+Color palette — all dominant colors with HEX codes, aligned with brand palette
+Props and environment — supporting elements with exact colors and positions
+What NOT to include — explicit exclusions: watermarks, people (if unwanted), competitor products, lens flare, cluttered backgrounds, distorted labels
+Prompt Template (copy and fill per image):
+GEMINI IMAGE GENERATION PROMPT — [IMAGE NAME / EMAIL SECTION]
+
+CANVAS FORMAT: [Width]px × [Height]px | 72 DPI | RGB color space | PNG output (lossless, no compression artifacts) | Aspect ratio: [e.g., 2:1 for a hero banner]
+
+SCENE OVERVIEW: [2–3 sentences describing the overall composition, mood, and purpose of the image within the email. What should the subscriber feel the instant they see this image? What action should it inspire?]
+
+BACKGROUND: [Exact description: primary background color in HEX, surface material (e.g., matte white corian, brushed concrete, polished marble), any gradient (direction, start color HEX, end color HEX), environmental depth (is there a blurred background suggesting a space? Studio void?), texture presence or absence.]
+
+PRODUCT PLACEMENT: [Full product description: official product name, exact color name and HEX, material (glass, HDPE plastic, aluminum, etc.), finish (matte/gloss/satin), label text verbatim if label must be visible. Position: describe precisely — e.g., "horizontally centered, bottom 55% of frame, label facing directly toward camera, angled 8° clockwise, no tilt." If multiple products: describe each separately with exact relative positioning.]
+
+LIGHTING: [Primary light source: direction (e.g., soft box upper-left at 45°), quality (hard / soft / diffused), color temperature (3200K warm / 5500K daylight / 6500K cool). Fill light: direction and intensity. Shadow: soft drop shadow extending bottom-right, approximately 15% opacity. Reflections: subtle product reflection on surface, 20% opacity maximum.]
+
+PROPS AND ENVIRONMENT: [Any supporting props: name, color (HEX), material, exact position on canvas. If no props: state explicitly "no props — product only on clean surface." Environment: does the image suggest a location (bathroom shelf, garage workshop, kitchen counter, outdoor terrain)? Or pure studio void?]
+
+SAFE ZONES FOR TEXT OVERLAY: [Specify exactly where text will be placed in the email template. These zones in the image must be visually clean, low-detail, and low-contrast so that overlaid headline and CTA text remain legible at all sizes. Example: "Upper 35% of image must transition to clean [HEX] — no product or prop elements in this zone. Bottom 15% must fade to [HEX] for CTA button area. Left 20% clear for possible text column overlay."]
+
+COLOR PALETTE (must align with brand): [List all dominant colors appearing in the image with HEX codes. Note any brand colors that must appear in props, surfaces, or accents.]
+
+MOOD AND EMOTIONAL TONE: [Describe precisely the emotional register: e.g., "premium clinical precision — the image should feel like a luxury scientific brand, cold but aspirational." Or: "warm Sunday morning energy — soft, inviting, slow lifestyle." Or: "raw high-performance intensity — the product should look like it belongs on a race circuit."]
+
+PHOTOGRAPHIC STYLE: [Choose and describe: "8K ultra-photorealistic studio product photography on pure white background," or "cinematic editorial lifestyle flat lay," or "macro close-up detail shot emphasizing texture and material quality," or "environmental lifestyle shot with soft bokeh background suggesting real-world use context."]
+
+TEXT TO RENDER INSIDE THE IMAGE (if any): [If text must be baked into the image (e.g., a promotional badge, "NEW" label, percentage discount overlay): exact text string, font weight (Bold / Black), approximate point size, color HEX, exact position on canvas. If no baked text: state "No text rendered in image — all copy overlaid in email template."]
+
+EXPLICITLY EXCLUDE: [List everything that must NOT appear. Examples: watermarks, agency logos, people/hands unless explicitly described, competing product references, harsh specular hotspots, lens flare, motion blur, chromatic aberration, distorted or illegible product labels, generic stock photography aesthetic, AI artifact patterns, overly symmetrical or artificial-looking compositions.]
+
+QUALITY REQUIREMENTS: Photorealistic rendering at 8K quality. Zero AI artifacts. Product geometry must be true to real-world object. Labels and text on product must be sharp and legible if visible. Colors must match provided HEX values exactly — no color drift. Output must be suitable for print-quality email hero at 2x retina density.
+
+Example Prompt (Glossio hero banner):
+GEMINI IMAGE GENERATION PROMPT — Hero Banner: Glossio Combideal Ceramic Spray
+
+CANVAS FORMAT: 1200px × 600px | 72 DPI | RGB color space | PNG output | Aspect ratio 2:1
+
+SCENE OVERVIEW: A premium automotive detailing product photography hero image for an e-commerce email campaign. The image communicates luxury, precision, and professional-grade performance. The subscriber should immediately feel this is a high-end product that justifies its price. The composition draws the eye to the product front-and-center, with a generous clean zone at the top for headline text overlay.
+
+BACKGROUND: Pure studio white (#FFFFFF) in the center, fading to a very subtle warm off-white (#F8F5F0) in the corners via a radial gradient. Surface: a polished light gray automotive paint panel (simulated car hood or fender surface) occupying the bottom 40% of the frame as a reflective surface on which the product rests. No environmental elements — pure studio context.
+
+PRODUCT PLACEMENT: One bottle of Glossio Ceramic Spray (250ml spray bottle format). Color: clean white HDPE body with a glossy black trigger sprayer. Label: Glossio wordmark in bold black sans-serif, centered on the bottle face, with product name "Ceramic Spray" below it in smaller weight. Positioned: horizontally centered, occupying the center 40% of the canvas width, base of the bottle sitting on the reflective surface at the 55% vertical mark. Bottle faces directly toward camera with label fully legible. Slight 5° clockwise tilt for dynamism. No second product.
+
+LIGHTING: Primary: large soft box upper-left at 45°, 5500K daylight. Creates a clean highlight along the left shoulder of the bottle. Fill light: right side, soft, 30% intensity of primary. Hard shadow: absent. Drop shadow: soft, bottom-center, 10% opacity, 20px blur radius. Reflection: subtle mirror reflection of the bottle on the paint panel surface, approximately 25% opacity, sharp at base and fading downward over 80px.
+
+PROPS AND ENVIRONMENT: No props. One optional element: a single folded premium microfiber cloth in dark charcoal gray (#2D2D2D), placed in the far right of the frame at approximately 80% horizontal / 65% vertical, partially cut off by the right edge of the frame. This adds depth without distracting from the product.
+
+SAFE ZONES FOR TEXT OVERLAY: Top 30% of the image must be completely clean — pure white (#FFFFFF) or very light off-white gradient, zero product or prop elements anywhere in this zone. This area will carry the headline text and subheadline overlaid in the email template. Bottom 10% may have a subtle fade to white to accommodate a CTA button text overlay.
+
+COLOR PALETTE:#FFFFFF (background), #F8F5F0 (warm vignette), #2D2D2D (microfiber cloth), #1A1A1A (product label text), #E8E8E8 (reflective panel surface). No other colors.
+
+MOOD AND EMOTIONAL TONE: Premium, clinical precision. The image should feel like it belongs in a Porsche accessory catalogue or a luxury Swiss brand product line — cold, controlled, aspirational, zero clutter.
+
+PHOTOGRAPHIC STYLE: 8K ultra-photorealistic studio product photography. Clean, clinical, high contrast between product and background. No lifestyle elements. No people. Pure product focus.
+
+TEXT TO RENDER INSIDE THE IMAGE: No text rendered in image. All copy (headline, subheadline, CTA) will be overlaid in the Klaviyo email template.
+
+EXPLICITLY EXCLUDE: Watermarks, people, hands, brushes, applicators in active use, competing product brands, reflections of studio equipment, lens flare, chromatic aberration, any distortion of the Glossio label, any text on the bottle other than what is described, overly warm or orange color temperature, cluttered background, stock photography aesthetic.
+
+QUALITY REQUIREMENTS: 8K photorealistic. Zero AI artifacts. Bottle geometry must be accurate to a real-world 250ml HDPE spray bottle. Label must be sharp and legible. Colors must match provided HEX values exactly. Output suitable for 2x retina display at 600px rendered width.
+
+PHASE 7: Pre-Send QA Checklist
+Run this before every campaign send:
+
+Strategy
+Email has exactly ONE primary goal
+That goal is clear within 2 seconds of opening
+Copy
+Subject line: 30–50 characters, curiosity or benefit or urgency
+Preheader: 40–90 characters, complements (not repeats) subject line
+Hero headline: bold, emotional, 5-word scan-test passed
+CTA button copy: action verb + specific ("Shop the Drop," not "Click Here")
+Urgency or exclusivity signal present somewhere visible
+Design / UX
+CTA button visible above the fold on mobile
+CTA button height minimum 44px
+CTA button width minimum 80% of container on mobile
+No competing equal-weight CTAs
+Social proof present before final CTA
+Sections transition fluidly (alternating backgrounds, spacers between sections)
+Email is skimmable in under 5 seconds (scan test passed)
+No text blocks longer than 3 lines
+Technical
+All images have descriptive alt text
+All images compressed under 200KB
+All CTA buttons link to correct URLs with UTM parameters
+Klaviyo unsubscribe block present and rendering correctly
+Physical mailing address in footer
+No broken image paths (all images hosted, not local)
+Personalization tags tested with a real profile (no broken {{ first_name }} fallback)
+Rendering
+Mobile preview looks correct in Klaviyo editor
+Test send received and checked on: iPhone native Mail, Gmail mobile, Gmail desktop, Outlook
+Dark mode rendering acceptable (text legible, no white-on-white)
+Two-column sections stack correctly to single column on mobile
+Spam score checked (mail-tester.com — aim for 9+/10)
+PHASE 8: Full Output Format
+When a user requests an email using this skill, deliver ALL of the following in a single response:
+
+Output Block 1: Email Strategy Brief
+Confirmed goal (one sentence)
+Chosen copy framework + rationale
+Three conversion pillar assessment: how will this email serve Ease of Click / Skimmability / Fluidity?
+Target audience assumption
+Tone of voice direction
+Output Block 2: Complete Copy
+All copy written out per section:
+
+Subject line (3 variations: curiosity / benefit / urgency)
+Preheader text
+Hero headline + subheadline
+Body text per section (infographic bullets, benefit lines, review quote)
+CTA button text (1–2 options)
+Urgency/exclusivity banner line
+Footer legal text
+Output Block 3: Layout Specification
+Section-by-section visual spec:
+
+Section name and purpose
+Background color (HEX)
+Klaviyo block types to use
+Content elements, alignment, and stacking behavior
+Spacing values (px)
+Font sizes and weights
+Required image dimensions
+Output Block 4: Gemini Image Prompts
+One complete 300-word+ prompt per required image asset, using the template from Phase 6. Number each prompt clearly:
+
+Image 1: Hero Banner
+Image 2: Product Detail Shot
+Image 3: Lifestyle / Context Shot
+(etc.)
+Output Block 5: Klaviyo Build Notes
+Any specific implementation notes for building this email in Klaviyo:
+
+Which blocks to use per section
+Any custom HTML snippets required
+Mobile stacking behavior to configure
+Global Style settings to apply first
+Email Anatomy Quick Reference
+┌─────────────────────────────────────┐
+│  PREHEADER TEXT (hidden in client)  │  ← 40–90 chars, inbox preview
+├─────────────────────────────────────┤
+│  LOGO              [minimal nav]    │  ← strip nav in promo emails
+├─────────────────────────────────────┤
+│                                     │
+│   HERO IMAGE (1200px source)        │  ← full width, retina quality
+│                                     │
+│   ╔═══════════════════════════╗     │
+│   ║  HEADLINE (32px+, bold)   ║     │  ← above the fold on mobile
+│   ║  Subheadline (16px)       ║     │
+│   ║  [   PRIMARY CTA   ]      ║     │  ← 44px+ height, max contrast
+│   ╚═══════════════════════════╝     │
+│                                     │
+│  [urgency banner: "Ends Tonight"]   │
+├──────────── bg: #F5F2EE ────────────┤
+│  ⚡ Benefit 1   ✅ Benefit 2  🔥 3  │  ← infographic, no paragraphs
+├─────────────────────────────────────┤
+│  [Product 1]  │  [Product 2]        │  ← each with own CTA button
+│  [Shop Now]   │  [Shop Now]         │  ← stacks on mobile
+├──────────── bg: #F5F0EA ────────────┤
+│  ╔═══════════════════════════════╗  │
+│  ║  ★★★★★  "Review text…"   ║  │  ← social proof before final ask
+│  ║  — Customer Name              ║  │
+│  ╚═══════════════════════════════╝  │
+├─────────────────────────────────────┤
+│  [SECONDARY CTA — only if needed]   │
+├──────────── bg: #1A1A1A ────────────┤
+│  Logo  ·  Links  ·  Social          │  ← footer
+│  Address  ·  Unsubscribe  ·  Legal  │
+└─────────────────────────────────────┘
+Source Foundation
+This skill synthesizes principles from three sources:
+
+"How to Design High Converting Emails For Ecom Brands in 2026" — Walshy Mails / Sunlo Consulting Contributed: copy frameworks (AID, PAS, Story), mobile-first design rules, Klaviyo export workflow, don'ts list, font/color discipline, Figma layout methodology.
+"Watch me create a high-converting email design in 19 minutes" — Aaron Bermingham (Wellcopy) Contributed: asset extraction via DevTools, reverse-engineering winners from Milled.com, hero composition in high-resolution, visual hierarchy execution, trust signal placement before CTA, premium lifestyle aesthetic principles.
+"How To Design Ecommerce Emails That ACTUALLY Convert" — Max Sturtevant (Wellcopy) Contributed: the three core conversion pillars (Ease of Click, Skimmability, Fluidity), before/after case studies (Yeti, Rise, Fenty Beauty, Peloton), per-product individual CTA buttons, infographic vs. paragraph copy, urgency/exclusivity signals, Klaviyo-native build workflow using drag-and-drop blocks and custom HTML, stripping distracting navigation from promotional emails, fluidity through background alternation and spacer blocks.
+Combined, these three perspectives form a complete end-to-end system for building emails that convert in 2026 — from strategy through copy through design through Klaviyo build through QA.
